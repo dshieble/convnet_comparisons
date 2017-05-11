@@ -5,7 +5,6 @@ from tqdm import tqdm
 import convnet_helpers as ch
 from convnet import Convnet
 import os
-from tensorflow.python.client import device_lib
 import sys
 from sklearn.metrics import roc_auc_score, log_loss, accuracy_score
 import utility_functions as uf
